@@ -1,0 +1,12 @@
+Django>=4.2,<5.0
+wagtail>=5.2
+Pillow>=10.0.0
+django-modelcluster>=6.0
+django-taggit>=4.0.0
+django-extensions>=3.2.0
+
+# Production dependencies for Render
+gunicorn==23.0.0
+dj-database-url==2.3.0
+psycopg2-binary==2.9.10
+whitenoise==6.8.2
